@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function Header(){return <header className="header"><Link className="brand" href="/" aria-label="Hacktivist Haven home"><span className="brand-mark">HH<span>.</span></span><span>HACKTIVIST<br/>HAVEN</span></Link><nav aria-label="Primary navigation"><a href="/#programmes">PROGRAMMES</a><a href="/#approach">APPROACH</a><a href="/#faq">FAQ</a><a href="/#contact">CONTACT</a></nav><a className="nav-cta" href="mailto:kitten@nexaris.my?subject=Hacktivist%20Haven%20Enquiry">ENQUIRE <span aria-hidden="true">↗</span></a></header>}
